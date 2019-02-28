@@ -18,9 +18,11 @@
   },
   "homepage": "https://github.com/DeliaCodes/flex-note-api#readme",
   "dependencies": {
+    "bcrypt": "^3.0.4",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "mongoose": "^5.4.16"
+    "mongoose": "^5.4.16",
+    "uuid": "^3.3.2"
   },
   "devDependencies": {
     "chai": "^4.2.0",
