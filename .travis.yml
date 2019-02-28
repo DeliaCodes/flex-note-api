@@ -1,0 +1,16 @@
+language: node_js
+node_js: node
+cache:
+  directories:
+  - node_modules
+services:
+     - mongodb
+env:
+- CI=true
+deploy:
+  provider: heroku
+  api_key:
+    secure: i0QC2bvEzWutWV3DAP9KS9hG2rAeSN9xNMs78ww5wXpxkPzjGAKEoi3IND02FuJEXLLJiu49leImoinjpEQQWz3M9s/eV9xml6hpheyBS18K8SZndoSr0hj0+IGD16JfwvDZDXZenmsCeC10SrPsB/nXpMRZ/nGu+4JXaFFaizwmpzxzG3v1wynqNfC6WiF4FAgURueLqJVM2sEGOHykUSrvWFqHQY9tokVp4tTVH+HoxQaV0Y2cwsBRWBOOW3JUMChO9FEPH661oY9nQFTjpi6VjaZejve7IXzj8c6r6rIPOlS908h2M7diZdeTQ57guJUeKCd/B0wTGFTPyTLIShsHVgM641B88h8ySrCyjxI/LKmlFgnpye+ELEVWfDY1hkOKUqtSn2L2CUzZnxSFa5biMvJDHMuOFIoSPtL6/K7Q7CK+OssEI6AdqbXBEEF2ePoXLMZHzeO1boh/L/Q6sVOPLhrAvt7j7ohs7sIBOVi8RB8NOctONp/k95+FaO63cDNzhgH0CrOZXG1TY/O3fvRtZdR6HMe920lFIaszRgh+doa76ZhSXNu3b6F6TzFQW++f73M8l6VO/RuyeJ/vGBWXpIiGM2wvgDCwQSs9C5G43kYrmOKzrABSRQHEmTZTc/N2KG5yypWUiJpu8gM1IrjyRRmo7fQPx9rW5N7mmtw=
+  app: secure-gorge-38346
+  on:
+    repo: DeliaCodes/flex-note-api
