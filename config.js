@@ -1,4 +1,4 @@
-exports.CLIENT_ORIGIN = process.env.CLIENT_ORIGIN;
+exports.CLIENT_ORIGIN = process.env.CLIENT_ORIGIN || `https://shielded-harbor-56134.herokuapp.com/api`
 exports.DATABASE_URL = process.env.DATABASE_URL || `mongodb://${process.env.SECRET_DB_USER}:${process.env.SECRET_DB_PS}@ds155845.mlab.com:55845/flexnotedb`;
 exports.TEST_DATABASE_URL = process.env.TEST_DATABASE_URL || 'mongodb://localhost/test-flex-note';
 exports.JWT_SECRET = process.env.JWT_SECRET;
