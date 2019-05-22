@@ -1,6 +1,6 @@
 # Welcome to Flex Note!
 
-An application to record notes using templates. Currently in development.
+An application to record notes using custom templates. Currently in development.
 
 [See it live here](https://shielded-harbor-56134.herokuapp.com/)
 
