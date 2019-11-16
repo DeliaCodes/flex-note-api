@@ -1,4 +1,4 @@
-# Welcome to Flex Note!
+# Welcome to Flex Note
 
 An application to record notes using custom templates. Currently in development.
 
@@ -7,6 +7,7 @@ An application to record notes using custom templates. Currently in development.
 ## Stack
 
 ### Frontend
+
 - React
 - Redux
 - Enzyme
@@ -14,6 +15,7 @@ An application to record notes using custom templates. Currently in development.
 - CSS3
 
 ### Backend
+
 - MongoDB
 - Mongoose
 - Express
